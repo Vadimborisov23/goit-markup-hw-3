@@ -341,7 +341,7 @@ flex-basis: calc((100% - 72px / 4))
     color: #434455;
 }
 
-.container {
+.partfolio-cs {
     padding: 32px 16px;
     border:1px solid #e7e9fc;
     border-top:none ;
@@ -367,7 +367,6 @@ flex-basis: calc((100% - 72px / 4))
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block;
     margin-bottom:16px;
     text-decoration: none;
 }
@@ -389,4 +388,5 @@ flex-basis: calc((100% - 72px / 4))
     letter-spacing: 0.02em;
     color: #f4f4fd;
     text-align: justify;
+    display: inline-block
 }
