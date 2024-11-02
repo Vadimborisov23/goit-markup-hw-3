@@ -119,6 +119,8 @@ a {
 }
 
 .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
     background: #2e2f42;
     text-align: center;
 }
@@ -158,7 +160,7 @@ a {
     padding-bottom: 120px ;
 }
 
-.features-container {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
