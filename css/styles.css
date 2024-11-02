@@ -1,0 +1,380 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-naw {
+    display: flex;
+    align-items: center;
+}
+
+.naw-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts {
+    margin-left: auto;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-lest {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.header-logo .logo-part {
+    color: #2e2f42;
+}
+
+.nav-link {
+    padding: 24px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.contacts-link {
+    display: block;
+    padding: 24px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-lest:hover,
+.contacts-lest:focus {
+    color: #404bbf;
+}
+
+.hero {
+    background: #2e2f42;
+    padding: 188px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-weight:496px;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+    padding: 12px 24px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
+}
+
+.features {
+    margin: 40px 0;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    margin-bottom: 24px;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.features-item {
+    max-width: 300px;
+    text-align: center;
+}
+
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.features-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team {
+ padding: 120px;
+ padding-bottom:120px;
+}
+
+.team-title {
+ margin: 0 auto;
+ padding-top:120px;
+ padding-bottom:72px;
+ margin-bottom:72px;
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.team-container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.team-member {
+background-color: #fff;
+border-radius:0 0 4px 4px;
+box-shadow:0 2px 1px 0 rgba(46,47,66,0.08) 0 1px 1px 0 rgba(46, 47, 66, 0.08);
+padding-left: 0;
+margin: 0;
+width: calc((100% - 3 * 24px) / 4);
+}
+
+.team-member{
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.photo{
+    width:100%;
+    max-width:264px;
+    height: auto;
+}
+
+.team-info{
+    padding:32px 16px;
+    max-width:264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:32px;
+}
+
+.team-member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing:0,02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.team-member-role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    background-color:#ffffff;
+    margin-bottom: 32px;
+}
+
+.team-member-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.partfolio {
+    margin: 40px 0;
+}
+
+.partfolio-liste{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:48px;
+    column-gap:24px;
+    justify-content: center;
+}
+
+.partfolio-conteiner{
+    width:1158px;
+    margin:0 auto;
+    padding:0 15px;
+}
+
+.partfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.partfolio-item {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:48px;
+    column-gap:24px;
+    justify-content: center;
+}
+
+.punctuality-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.partfolio-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.partfolio-ps{
+    border:1 px solid #e7e9fc;
+    border-top:none ;
+}
+
+.footer-eader {
+    background-color: #2e2f42;
+    padding-bottom:100px;
+    padding-top: 100px;
+}
+
+.eader-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.eader {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom:16px;
+    text-decoration: none;
+}
+
+.eader-logo-color {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.eader-logo {
+    max-width: 264px;
+    font-size: 16px;
+    line-height:150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    text-align: justify;
+}
