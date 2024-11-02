@@ -279,6 +279,11 @@ flex-basis: calc((100% - 72px / 4))
     background-color:#ffffff;
 }
 
+.team-member-image{
+    display: block
+}
+
+
 .team-member-description {
     font-weight: 400;
     font-size: 16px;
@@ -341,6 +346,10 @@ flex-basis: calc((100% - 72px / 4))
     color: #434455;
 }
 
+.portfolio-item{
+    display: block
+}
+
 .partfolio-cs {
     padding: 32px 16px;
     border:1px solid #e7e9fc;
@@ -380,6 +389,7 @@ flex-basis: calc((100% - 72px / 4))
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    display: inline-block
 }
 
 .eader-logo {
@@ -389,5 +399,4 @@ flex-basis: calc((100% - 72px / 4))
     letter-spacing: 0.02em;
     color: #f4f4fd;
     text-align: justify;
-    display: inline-block
 }
