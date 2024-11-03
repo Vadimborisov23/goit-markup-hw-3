@@ -25,6 +25,12 @@ a {
     text-decoration: none;
 }
 
+img{
+    display: block;
+    max-width:100px;
+    height: auto;
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -161,29 +167,32 @@ a {
 }
 
 .container {
-    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.features-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2e2f42;
-    margin-bottom: 24px;
+.visually-hidden {
+ position: absolute;
+ width:1px;
+ height: 1px;
+ margin: -1px;
+ border: 0;
+ padding: 0;
+ white-space:nowrap;
+ clip-path: inset(100%);
+ clip: rect(0 0 0 0);
+ overflow: hidden;
 }
 
 .features-list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
 }
 
 .features-item {
-    max-width: 300px;
+   width: calc((100%-72px) /4);
     text-align: center;
 }
 
@@ -227,7 +236,6 @@ a {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
@@ -242,7 +250,7 @@ a {
 
 .team-member {
     width: 100%;
-    border-radius: 50%;
+    border-radius:0px 0px 4px 4px;
     margin-bottom: 20px;
 }
 
@@ -361,7 +369,6 @@ a {
 }
 
 .container {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
    
