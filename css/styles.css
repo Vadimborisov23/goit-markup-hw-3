@@ -65,7 +65,7 @@ a {
     gap: 40px;
 }
 
-.lest{
+.lest {
     display: flex;
     gap: 40px;
 }
@@ -126,7 +126,7 @@ a {
 }
 
 .hero-title {
-    max-width:496px;
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -134,8 +134,8 @@ a {
     margin-bottom: 20px;
 }
 
-    .hero-btn{
-    min-width:169px;
+.hero-btn {
+    min-width: 169px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -156,8 +156,8 @@ a {
 }
 
 .features {
-    padding-top:120px;
-    padding-bottom: 120px ;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .container {
@@ -207,7 +207,7 @@ a {
 .team {
     padding-top: 120px;
     padding-bottom: 120px;
-     background-color: #f4f4fd;
+    background-color: #f4f4fd;
 }
 
 .team-title {
@@ -223,26 +223,32 @@ a {
     justify-content: center;
 }
 
-.team-member {
-
-     background-color: #fff;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.08);
-    padding-left: 0;
-    margin: 0;
-    width: calc((100% - 3 * 24px) / 4);
-    flex-basis: calc((100% - 3 * 24px) / 4);
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
 }
 
-.team-member img {
-     display: block;
+.team-member {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08) 0 1px 1px 0 rgba(46, 47, 66, 0.08);
+    padding-left: 0;
+    margin: 0;
+    flex-basis: calc((100% - 72px / 4))
+}
+
+.team-member {
     width: 100%;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
 .photo {
-    display: block;
     width: 100%;
     max-width: 264px;
     height: auto;
@@ -260,7 +266,7 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: 0, 02em;
     color: #2e2f42;
     margin-bottom: 8px;
 }
@@ -268,39 +274,39 @@ a {
 .team-member-role {
     font-weight: 400;
     font-size: 16px;
-   line-height: 1.5;
+    line-height: 1.5;
     color: #434455;
     background-color: #ffffff;
 }
 
 .team-member-image {
-    display: block;
+    display: block
 }
 
-.team-member-description{
+.team-member-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-     color: #434455;
+    color: #434455;
 }
 
 .partfolio {
-   padding-top: 120px;
-   padding-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.partfolio-liste{
+.partfolio-liste {
     display: flex;
     flex-wrap: wrap;
-    row-gap:48px;
-    column-gap:24px;
+    row-gap: 48px;
+    column-gap: 24px;
     justify-content: center;
 }
 
-.conteiner{
-    width:1158px;
-    margin:0 auto;
-    padding:0 15px;
+.conteiner {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .partfolio-title {
@@ -317,8 +323,8 @@ a {
 .partfolio-item {
     display: flex;
     flex-wrap: wrap;
-    row-gap:48px;
-    column-gap:24px;
+    row-gap: 48px;
+    column-gap: 24px;
     justify-content: center;
 }
 
@@ -339,24 +345,24 @@ a {
     color: #434455;
 }
 
-.portfolio-item{
+.portfolio-item {
     display: block
 }
 
 .partfolio-cs {
     padding: 32px 16px;
-    border:1px solid #e7e9fc;
-    border-top:none ;
+    border: 1px solid #e7e9fc;
+    border-top: none;
     width: calc((100% - 48px) / 3)
 }
 
 .footer-eader {
     background-color: #2e2f42;
-    padding-bottom:100px;
+    padding-bottom: 100px;
     padding-top: 100px;
 }
 
-.eader-container{
+.eader-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -370,8 +376,9 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-bottom:16px;
+    margin-bottom: 16px;
     text-decoration: none;
+    display: inline-block
 }
 
 .eader-logo-color {
@@ -382,13 +389,12 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    display: inline-block
 }
 
 .eader-logo {
     max-width: 264px;
     font-size: 16px;
-    line-height:150%;
+    line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     text-align: justify;
