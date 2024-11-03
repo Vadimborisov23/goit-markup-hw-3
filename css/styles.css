@@ -360,10 +360,11 @@ a {
     padding-top: 100px;
 }
 
-.eader-container {
+.container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    display: inline-block
 }
 
 .eader {
@@ -376,7 +377,6 @@ a {
     color: #4d5ae5;
     margin-bottom: 16px;
     text-decoration: none;
-    display: inline-block
 }
 
 .eader-logo-color {
